@@ -1,0 +1,41 @@
+:root
+{
+    --header-color:#ECECEC
+}
+
+:root
+{
+    --main-color:#2F303A
+}
+
+:root
+{
+    --section-color:#F5F4FA
+
+}
+
+:root
+{
+    --button-color:#2196F3
+
+}
+
+button
+{
+    background-color: var(--button-color);
+}
+
+.graycolor
+{
+    background-color: var(--main-color);
+}
+
+.section3
+{
+    background-color: var(--section-color);
+}
+
+header
+{
+    background-color: var(--header-color);
+}
