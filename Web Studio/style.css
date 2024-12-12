@@ -49,7 +49,6 @@ a
 .header-nav-a
 {
     
-    margin: 20px;
     width: 45px;
     height: 16px;
     left: 453px;
@@ -321,4 +320,13 @@ ul
     color: var(--text-p-style-main)
 }
 
-/*
+.container
+{
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/*  
+   
