@@ -29,6 +29,7 @@ header
 {
     display: flex;
     background-color: var(--header-color);
+    align-items: baseline;
 }
 
 body
@@ -50,6 +51,7 @@ a
 {
     display: flex;
     gap: 50px;
+    padding-left: 93px ;
 }
 .header-ul-second
 {
@@ -92,6 +94,7 @@ a
 
 .main-section1-button
 {
+    border: 0px;
     margin-left: 492px;
     margin-right: 492px;
     margin-top: 30px;
@@ -122,6 +125,7 @@ a
 ul
 {
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .header-web-studio-logo, .footer-a
@@ -197,10 +201,9 @@ ul
 
 .main-h2
 {
+    
     padding-top: 94px;
     padding-bottom: 50px;
-    width: 366px;
-    height: 60px;
     left: 617px;
     top: 966px;
     font-style: normal;
@@ -214,6 +217,7 @@ ul
 
 .main-section2-ul-photo
 {
+    padding-inline-start: 0px;
     padding-bottom: 94px;
     display: flex;
     gap: 30px;
@@ -221,10 +225,7 @@ ul
 
 .main-section3-h4
 {
-    width: 129px;
-    height: 19px;
-    left: 286px;
-    top: 1922px;
+    
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -232,6 +233,8 @@ ul
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--a-nav-color);
+    margin-bottom: 0px;
+   
 
 }
 .main-section3-ul
@@ -239,14 +242,12 @@ ul
     padding-bottom: 94px;
     display: flex;
     gap: 30px;
+    mar
+    
 }
 .main-section3-p
 {
- 
-    width: 130px;
-    height: 19px;
-    left: 285px;
-    top: 1951px;
+    margin-top: 0px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -291,7 +292,7 @@ ul
 .portfolio-main-button
 {
 
-
+    border: 0px;
 
     width: 12125px;
     height: 38px;
@@ -374,7 +375,6 @@ ul
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: solid red;
 }
 
 .footer-text
@@ -392,6 +392,18 @@ ul
     display: flex;
     gap: 8px;
     justify-content: center;
+}
+.main-h2-display
+{
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+}
+.section3-li
+{
+    background-color: var(--header-color);
+    width: 270px;
+    height: 368px;
 }
 /*  
    
