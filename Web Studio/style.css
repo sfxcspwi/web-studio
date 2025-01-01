@@ -157,8 +157,6 @@ ul
 .footer-a
 {
     color: var(--webstudio-text-all-white) ;
-    padding-top: 60px;
-    padding-bottom: 20px;
 }
 
 .main-section2-h4
@@ -187,7 +185,7 @@ ul
 {
 
     width: 270px;
-    height: 150px;
+    height: 50px;
     left: 215px;
     top: 800px;
     font-style: normal;
@@ -405,5 +403,11 @@ ul
     width: 270px;
     height: 368px;
 }
+
+.footer-all-content
+{
+    padding-top: 50px;
+}
 /*  
+
    
