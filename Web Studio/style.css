@@ -240,7 +240,6 @@ ul
     padding-bottom: 94px;
     display: flex;
     gap: 30px;
-    mar
     
 }
 .main-section3-p
@@ -292,7 +291,7 @@ ul
 
     border: 0px;
 
-    width: 12125px;
+    
     height: 38px;
     left: 593px;
     top: 174px;
@@ -318,6 +317,7 @@ ul
 .portfolio-main-button:hover
 {
     background-color: var(--mainblue-color);
+    color: var(--header-color) 
 }
 
 .a-button-main-text-style
@@ -335,6 +335,11 @@ ul
     letter-spacing: 0.03em;
     color: var(--a-nav-color)
 
+}
+
+.a-button-main-text-style:hover
+{
+    color: var(--a-footer-color);
 }
 
 .portfolio-main-h2
@@ -407,6 +412,17 @@ ul
 .footer-all-content
 {
     padding-top: 50px;
+}
+
+.main-ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.item
+{
+    flex-basis: calc((100% - 60px) / 3 );
 }
 /*  
 
