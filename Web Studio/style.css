@@ -424,6 +424,54 @@ ul
 {
     flex-basis: calc((100% - 60px) / 3 );
 }
+
+.section2-ul-li1::before
+{
+    content:url(./photo/antenna.png);
+    width: 270px;
+    height: 120px;
+    background-color: var(--section-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section2-ul-li2::before
+{
+    content:url(./photo/clock.png);
+    width: 270px;
+    height: 120px;
+    background-color: var(--section-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.section2-ul-li3::before
+{
+    content:url(./photo/diagram.png);
+    width: 270px;
+    height: 120px;
+    background-color: var(--section-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.section2-ul-li4::before
+{
+    content:url(./photo/astronaut.png);
+    width: 270px;
+    height: 120px;
+    background-color: var(--section-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
 /*  
 
    
