@@ -18,6 +18,9 @@ button
 .gray-color
 {
     background-color: var(--main-color);
+    background-image: url(./photo/background.png);
+    background-position: center;
+    
 }
 
 .section3
@@ -317,7 +320,14 @@ ul
 .portfolio-main-button:hover
 {
     background-color: var(--mainblue-color);
-    color: var(--header-color) 
+    color: var(--header-color);
+
+    box-shadow: 0px 2px 2px 0px #0000001F;
+
+    box-shadow: 0px 1px 2px 0px #00000014;
+
+    box-shadow: 0px 3px 1px 0px #0000001A;
+
 }
 
 .a-button-main-text-style
@@ -407,6 +417,14 @@ ul
     background-color: var(--header-color);
     width: 270px;
     height: 368px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+
+    box-shadow: 0px 1px 1px 0px #00000024;
+
+    box-shadow: 0px 1px 3px 0px #0000001F;
+
+    border-end-end-radius: 3px;
+
 }
 
 .footer-all-content
@@ -423,6 +441,13 @@ ul
 .item
 {
     flex-basis: calc((100% - 60px) / 3 );
+
+    box-shadow: 1px 4px 6px 0px #00000029;
+
+    box-shadow: 0px 4px 4px 0px #0000000F;
+
+    box-shadow: 0px 1px 1px 0px #0000001F;
+
 }
 
 .section2-ul-li1::before
