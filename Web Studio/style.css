@@ -18,9 +18,15 @@ button
 .gray-color
 {
     background-color: var(--main-color);
-    background-image: url(./photo/background.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./photo/background.png);
     background-position: center;
-    
+    background-repeat: no-repeat;
+    max-width: ;
+}
+
+.gray-color-footer
+{
+    background-color: var(--main-color);
 }
 
 .section3
@@ -364,7 +370,10 @@ ul
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: var(--a-nav-color)
+    color: var(--a-nav-color);
+    display: flex;
+    padding-left: 24px;
+    
 
 }
 
@@ -379,7 +388,8 @@ ul
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: var(--text-p-style-main)
+    color: var(--text-p-style-main);
+    padding-left: 24px;
 }
 
 .container
@@ -447,6 +457,18 @@ ul
     box-shadow: 0px 4px 4px 0px #0000000F;
 
     box-shadow: 0px 1px 1px 0px #0000001F;
+    
+
+}
+
+.item:hover
+{
+   box-shadow: 2px 6px 8px 0px #00000029;
+
+    box-shadow: 0px 6px 6px 0px #0000000F;
+
+    box-shadow: 0px 2px 2px 0px #0000001F;
+
 
 }
 
