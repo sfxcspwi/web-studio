@@ -22,7 +22,7 @@ button
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./photo/background.png);
     background-position: center;
     background-repeat: no-repeat;
-    max-width: ;
+
 }
 
 .gray-color-footer
@@ -305,6 +305,31 @@ ul
     
 }
 
+.image-decoration
+{
+ 
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: var(--webstudio-text-all-white);
+
+}
+
+.image-decoration-div
+{
+    background: #2F303ACC;
+    width: 370px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -74px;
+}
+
 .portfolio-main-button
 {
 
@@ -330,6 +355,7 @@ ul
     letter-spacing: 0.03em;
 
     color:var(--a-nav-color);
+    margin-top: 44px;
 
 }
 
@@ -561,6 +587,8 @@ ul
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin-bottom: 94px;
+    margin-top: 50px;
 }
 .item
 {
