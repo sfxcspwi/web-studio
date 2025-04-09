@@ -566,12 +566,18 @@ ul
     color: var(--mainblue-color);
 }
 
+.back-drop .modal.show
+{
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+
 .modal
 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -50%, -50%);
     width: 528px;
     height: 581px;
     border-radius: 4px;
@@ -582,8 +588,24 @@ ul
     box-shadow: 0px 1px 1px 0px #00000024;
 
     box-shadow: 0px 1px 3px 0px #0000001F;
- 
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    animation-name: modal-open;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
 }
+
+@keyframes modal-open 
+{
+    from {
+      transform: translate(-50%, 100%); 
+    }
+    to {
+      transform: translate(-50%, -50%);
+    }
+}
+
 
 .modal-h2
 {
@@ -854,7 +876,7 @@ ul
 
 .is-hidden
 {
-    opacity: 0;
+    display: none;
     pointer-events: none;
 }
 
@@ -867,6 +889,7 @@ ul
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
+    
 }
 
 .section-title
