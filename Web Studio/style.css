@@ -566,8 +566,27 @@ ul
 
 .customer:hover
 {
-    color: var(--mainblue-color);
+    animation-name: customer-anim;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
+
+@keyframes customer-anim 
+{
+    from 
+    {
+      scale: 1;    
+      color: var(--svg-color);
+    }
+
+    to 
+    {
+      scale: 1.1;
+      color: var(--mainblue-color);
+    }
+}
+
 
 .back-drop .modal.show
 {
@@ -733,7 +752,7 @@ ul
     }
 }
 
-.item:hover .overlay-div
+.overlay-div-box:hover .overlay-div
 {
     animation-name: overlay-portfolio;
     animation-duration: 0.5s;
@@ -1002,17 +1021,58 @@ ul
 
 .svg-decor:hover
 {
-    background-color: var(--mainblue-color);
+    
     border-radius: 50%; 
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
+    animation-name: svg-anim;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
 }
+
+@keyframes svg-anim 
+{
+    from 
+    {
+      scale: 1;
+      background-color: transparent;
+    }
+
+    to 
+    {
+      background-color: var(--mainblue-color);
+      scale: 1.1;
+      color: var(--webstudio-text-all-white);
+    }
+}
+
+@keyframes svg-anim-l
+{
+    from 
+    {
+        scale: 1;
+    }
+
+    to 
+    {
+        scale: 1.1;
+        color: var(--webstudio-text-all-white);
+    }
+}
+
+
 
 .svg-decor:hover .svg-logo
 {
-    color: var(--webstudio-text-all-white);
+    animation-name: svg-anim-l;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    
 }
 
 .section3-li
